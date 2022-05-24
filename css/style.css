@@ -1,19 +1,31 @@
 @font-face {
     font-family:'Oswald', sans-serif;
     src: url("fonts/font2/static/Oswald-Regular.ttf");
+    font-style: normal; 
+    font-weight:400; 
 }
 @font-face {
     font-family:'OpenSans', sans-serif;
     src: url("fonts/font1/static/OpenSans/OpenSans-Regular.ttf");
+    font-style: normal; 
+    font-weight:400; 
 }
 @font-face {
     font-family:'TitilliumWeb', sans-serif;
     src: url("fonts/font3/TitilliumWeb-Regular.ttf");
+    font-style: normal; 
+    font-weight:400; 
 }
 .text1{
     font-family:'TitilliumWeb', sans-serif;
     color:white;
     font-size: 23px;
+}
+.text2{
+    font-family:'OpenSans', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
 }
 *{
     margin: 0;
@@ -21,6 +33,16 @@
 }
 a{
     text-decoration: none;
+}
+.bt1{
+    width: 160px;
+    height: 51px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family:'OpenSans', sans-serif;
+    margin-top: 40px;
+    font-size: 16px;
 }
 .container{
     margin:0 auto;
@@ -31,7 +53,6 @@ a{
     margin: 0 auto;
 }
 .header{
-    background-color:rgba(0, 91, 193, 60%);
     width: 1920px;
     height: 80px;
 }
@@ -42,6 +63,10 @@ a{
     gap: 7px;
     margin-left: 40px;
     padding: 11px;
+}
+.header__container{
+    position:absolute;
+    background-color:rgba(0, 91, 193, 60%);
 }
 .nav{
     display: flex;
@@ -72,11 +97,25 @@ a{
     height: 50px;
 }
 .img2{
-    
+    opacity: 60%;
+    z-index: 0;
+    position: relative;
 }
 .first-screen{
-    border: 1px solid black;
+    border: 0px solid black;
     width: 1140px;
     height: 724px;
     margin:0 auto;
+    margin-top: -729px;
+}
+.title1{
+    font-family:'Oswald', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+.info{
+    border: 0px solid black;
+    margin-top: -529px;
+    z-index: 1;
+    position: relative;
 }
