@@ -1,15 +1,5 @@
-@font-face {
-    font-family:'Oswald', sans-serif;
-    src: url("fonts/font2/static/Oswald-Regular.ttf");
-    font-style: normal; 
-    font-weight:400; 
-}
-@font-face {
-    font-family:'OpenSans', sans-serif;
-    src: url("fonts/font1/static/OpenSans/OpenSans-Regular.ttf");
-    font-style: normal; 
-    font-weight:400; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@200;300;400&display=swap');
 @font-face {
     font-family:'TitilliumWeb', sans-serif;
     src: url("fonts/font3/TitilliumWeb-Regular.ttf");
@@ -20,6 +10,7 @@
     font-family:'TitilliumWeb', sans-serif;
     color:white;
     font-size: 23px;
+    font-weight:normal;
 }
 .text2{
     font-family:'OpenSans', sans-serif;
@@ -73,7 +64,7 @@ a{
     flex-direction: row;
     align-items: center;
     gap:26px;
-    margin-left: 555px;
+    margin-left: 550px;
 }
 .nav__item{
     color: white;
@@ -112,13 +103,14 @@ a{
     font-family:'Oswald', sans-serif;
     font-size: 48px;
     color: white;
-    font-weight: 400px;
+    font-weight:normal;
 }
 .info{
     border: 0px solid black;
     margin-top: -529px;
     z-index: 1;
     position: relative;
+    margin-left: 190px;
 }
 .block1{
     width: 1920px;
@@ -127,11 +119,17 @@ a{
     margin:0 auto;
     margin-top: 740px;
 }
-
-.sliders{
+.block2{
+    width: 1920px;
+    border: 2px solid pink;
+    height: 800px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.content-block{
     width: 1100px;
     border: 1px solid olive;
-    height: 53g0px;
+    height: 530px;
     margin:0 auto;
     margin-top: 139px;
 }
@@ -156,6 +154,7 @@ a{
     font-size: 18px;
     margin-top: 20px;
     margin-left: 25px;
+    font-weight:normal;
 
 }
 .text-bt{
@@ -170,7 +169,6 @@ input[name="knop"]{
 }
 .knop-slid{
     margin-top: 70px;
-
     gap: 22px;
     display: flex;
     flex-direction: row;
@@ -178,6 +176,7 @@ input[name="knop"]{
 .title-slid{
     font-family:'Oswald', sans-serif;
     font-size: 30px;
+    font-weight:normal;
 }
 .sr-content{
     width: 500px;
@@ -202,8 +201,23 @@ input[name="knop"]{
     margin-top: -46px;
 }
 #knop1:checked ~ .s1 {
-    margin-left: 0;
+    margin-top: 0px;
+    
 }
 #knop2:checked ~ .s1 {
-    margin-left:-5%;
+    margin-top: -20px;
+}
+.title-con{
+    font-family:'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight:normal;
+    border: 1px solid black;
+
+}
+.sun{
+    color: #005BC1;
+    
+}
+.s{
+
 }
