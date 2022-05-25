@@ -126,6 +126,13 @@ a{
     margin:0 auto;
     margin-top: 20px;
 }
+.block3{
+    width: 1920px;
+    border: 2px solid pink;
+    height: 800px;
+    margin:0 auto;
+    margin-top: 20px;
+}
 .content-block{
     width: 1100px;
     border: 1px solid olive;
@@ -212,12 +219,57 @@ input[name="knop"]{
     font-size: 24px;
     font-weight:normal;
     border: 1px solid black;
-
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+    justify-content:space-between;
+    margin-top:70px;
+    width: 210px;
+    margin-left:464px;
+}
+.sp1{
+   width: 53px;
+   height: 2px;
+   background-color: #005BC1;
+   margin-left:462px;
+   margin-top: 2px;
 }
 .sun{
     color: #005BC1;
+}
+.content{
+    border: 1px solid khaki;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap:22px;
+    width: 1100px;
+}
+.bl{
+    width: 350px;
+    height: 300px;
+    border:1px solid #005BC1;
     
 }
-.s{
-
+.img4{
+    width: 350px;
+    height: 300px;
+   
+}
+.cont3{
+    width: 265px;
+    height: 86px;
+    background-color: #005BC1;
+    margin-top: -101px;
+    z-index: 1;
+    position:relative;
+    margin-left: 85px;
+}
+.title-bt2{
+    margin-left: 21px;
+    padding-top: 15px;
+    font-weight:normal;
+    font-family:'Oswald', sans-serif;
+    color: white;
+    font-size: 18px;
 }
