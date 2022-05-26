@@ -24,6 +24,7 @@
 }
 a{
     text-decoration: none;
+    color: #343434;
 }
 .bt1{
     width: 160px;
@@ -143,8 +144,8 @@ a{
     margin:0 auto;
 }
 .content-block{
-    width: 1100px;
-    border: 0px solid olive;
+    width: 1110px;
+    border: 1px solid olive;
     height: 530px;
     margin:0 auto;
     
@@ -198,7 +199,7 @@ input[name="knop"]{
     font-size: 18px;
     
 }
-.sr-content,.sr-content2{
+.sr-content,.sr-content2,.sr-content3{
     width: 500px;
     height: 44px;
     display: flex;
@@ -212,6 +213,9 @@ input[name="knop"]{
     margin-left: 30px;
     width: 440px;
     
+}
+.sr-content3{
+    width: 1100px;
 }
 .ar,.ar2{
     width: 55px;
@@ -271,8 +275,8 @@ input[name="knop"]{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    gap:22px;
-    width: 1100px;
+    gap:28px;
+    width: 1110px;
 }
 .bl{
     width: 350px;
@@ -353,4 +357,95 @@ input[name="knop"]{
     gap: 30px;
     margin-top: -240px;
     margin-left: 300px;
+}
+.bt3{
+    color: white;
+    font-family:'OpenSans', sans-serif;
+    font-weight:normal;
+    font-size: 16px;
+    width: 190px;
+    height: 51px;
+    background-color: #005BC1;
+    border: 0px;
+    margin-left:661px;
+}
+.bloks{
+    width: 1110px;
+    border: 0px solid brown;
+    height: 242px;
+    margin-top: 77px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.blo1{
+    width: 540px;
+    height: 242px;
+    border: 0px solid brown;
+}
+.t-bl1{
+    font-weight:normal;
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+    color: #343434;
+}
+.text-bl1,.t-bl2{
+    font-family:'OpenSans', sans-serif;
+    font-weight:normal;
+    font-size: 14px;
+    color: #979797;
+}
+.img6{
+    width: 255px;
+    height: 242px;
+}
+.title-blo1{
+    margin-left: 285px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    margin-top: -242px;
+}
+.t-bl2{
+    margin-top: 0;
+    margin-left: 0;
+}
+.content-text-bl,.content-text-bl2{
+    width: 255px;
+    height: 133px;
+    margin-left: 285px;
+    margin-top: 42px;
+    font-family:'OpenSans', sans-serif;
+    font-weight:normal;
+    font-size: 14px;
+    color: #979797;
+}
+.content-text-bl2{
+    margin-left:0px;
+    margin-top:20px;
+    height: 35px;
+    
+}
+.htp-bl{
+    font-family:'OpenSans', sans-serif;
+    font-weight:normal;
+    font-size: 14px;
+    margin-left: 285px;
+}
+.blo2{
+    border: 0px solid brown;
+    width: 225px;
+    height: 242px;
+}
+.img7{
+    width: 126px;
+    height: 115px;
+    margin-top: 20px;
+}
+.img-and-text{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 25px;
 }
