@@ -63,6 +63,7 @@ a{
 }
 .header-menu{
     width: 1920px;
+    height: 80px;
 }
 .header_logo{
     display: flex;
@@ -108,11 +109,11 @@ a{
     height: 50px;
 }
 .img2{
-    opacity: 80%;
+    opacity: 100%;
     z-index: 0;
     position: relative;
     margin-left: 20px;
-    top: -8px;
+    top: -4px;
 }
 .first-screen{
     border: 0px solid black;
