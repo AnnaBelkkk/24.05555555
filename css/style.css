@@ -205,7 +205,7 @@ input[name="knop"]{
 }
 .knop-slid{
     margin-top: 70px;
-    gap: 22px;
+    gap: 30px;
     display: flex;
     flex-direction: row;
 }
