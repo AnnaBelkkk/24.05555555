@@ -55,6 +55,9 @@ a{
     height: 80px;
     
 }
+.header-menu{
+    width: 1920px;
+}
 .header_logo{
     display: flex;
     align-items: center;
@@ -66,14 +69,15 @@ a{
 .header__container{
     position:absolute;
     background-color:rgba(0, 91, 193, 60%);
+    width: 100%;
 }
 .nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap:30px;
-    margin-left: 535px;
-    margin: auto;
+    margin-left: 555px;
+   
 }
 .nav__item{
     color: white;
@@ -444,6 +448,7 @@ input[name="knop"]{
     font-weight:normal;
     font-size: 14px;
     margin-left: 285px;
+    text-decoration: underline;
 }
 .blo2{
     border: 0px solid brown;
