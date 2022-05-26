@@ -26,6 +26,12 @@ a{
     text-decoration: none;
     color: #343434;
 }
+.header-menu{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
 .bt1{
     width: 160px;
     height: 51px;
@@ -40,12 +46,12 @@ a{
     margin:0 auto;
 }
 .wrapper{
-    width: 1920px;
+    width: 100%;
     border: 0px solid black;
     margin: 0 auto;
 }
 .header{
-    width: 1920px;
+    width: 100%;
     height: 80px;
     
 }
@@ -76,14 +82,15 @@ a{
 
 }
 .header__container{
-    width:1920px;
+    width:100%;
     display:flex;
     flex-direction:row;
     align-items: center;
 }
 .img0{
-    width: 1920px;
+    width: 100%;
     height: 800px;
+    object-fit: cover;
 }
 .img1{
     width: 57.74px;
@@ -140,15 +147,18 @@ a{
 .block4{
     width: 1920px;
     border: 1px solid pink;
-    height: 800px;
+    height: 363px;
     margin:0 auto;
 }
-.content-block{
+.content-block,.content-block2{
     width: 1110px;
     border: 1px solid olive;
     height: 530px;
     margin:0 auto;
     
+}
+.content-block2{
+    height: 363px;
 }
 .img3{
     width: 540px;
@@ -448,4 +458,11 @@ input[name="knop"]{
     flex-direction: row;
     align-items: flex-end;
     gap: 25px;
+}
+.footer{
+    border: 1px solid  fuchsia;
+    margin-top: 120px;
+    width: 100%;
+    height: 255px;
+    background-color:rgba(0, 91, 193);
 }
