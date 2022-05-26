@@ -73,6 +73,7 @@ a{
     align-items: center;
     gap:30px;
     margin-left: 535px;
+    margin: auto;
 }
 .nav__item{
     color: white;
@@ -127,32 +128,33 @@ a{
 .block1{
     width: 1920px;
     border: 0px solid red;
-    height: 800px;
-    margin:0 auto;
+    height: 520px;
+    margin:auto;
     margin-top: 890px;
 }
 .block2{
     width: 1920px;
     border: 0px solid pink;
-    height: 800px;
-    margin:0 auto;
+    height: 500px;
+    margin:auto;
+    margin-top: 150px;
 }
 .block3{
     width: 1920px;
-    border: 1px solid pink;
+    border: 0px solid pink;
     height: 700px;
-    margin:0 auto;
-    margin-top: 20px;
+    margin: auto;
+    margin-top: 150px;
 }
 .block4{
     width: 1920px;
-    border: 1px solid pink;
+    border: 0px solid pink;
     height: 363px;
     margin:0 auto;
 }
 .content-block,.content-block2{
     width: 1110px;
-    border: 1px solid olive;
+    border: 0px solid olive;
     height: 530px;
     margin:0 auto;
     
@@ -460,9 +462,79 @@ input[name="knop"]{
     gap: 25px;
 }
 .footer{
-    border: 1px solid  fuchsia;
+    border: 1px solid rgba(0, 91, 193) ;
     margin-top: 120px;
     width: 100%;
     height: 255px;
     background-color:rgba(0, 91, 193);
+}
+.footer-content{
+    width: 1110px;
+    border: 0px solid purple;
+    margin: 0 auto;
+    margin-top: 36px;
+    
+}
+.block5{
+    margin-top: 36px;
+}
+.f1,.f12,.f13{
+    color: white;
+}
+.f1{
+    font-weight:normal;
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+}
+.f12,.f13{
+    font-size: 14px;
+    font-family:'OpenSans', sans-serif;
+    font-weight:normal;
+}
+.footer-block1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.footer-block2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-block3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footer-block-line{
+    width: 1110px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    margin:auto;
+    margin-top: 25px;
+}
+.f-b{
+    margin-top: 25px;
+}
+.fb2{
+    display: flex;
+    flex-direction: row;
+    gap: 132px;
+}
+.f-b{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+}
+.f-b-a,.f-b-a3{
+    color: white;
+    font-family:'OpenSans', sans-serif;
+    font-weight:normal;
+    font-size: 14px;
+}
+.f-b-a3{
+    margin-left: -18px;
 }
