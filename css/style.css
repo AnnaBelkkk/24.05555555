@@ -96,11 +96,13 @@ a{
     display:flex;
     flex-direction:row;
     align-items: center;
+    height: 80px;
 }
 .img0{
     width: 100%;
     height: 800px;
     object-fit: cover;
+    
 }
 .img1{
     width: 57.74px;
@@ -111,7 +113,7 @@ a{
     z-index: 0;
     position: relative;
     margin-left: 20px;
-    top: -7.5px;
+    top: -4px;
 }
 .first-screen{
     border: 0px solid black;
