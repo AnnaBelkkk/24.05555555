@@ -32,7 +32,7 @@ a{
     border: 2px solid white;
     color: white;
     font-family:'OpenSans', sans-serif;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 16px;
 }
 .container{
@@ -46,6 +46,7 @@ a{
 .header{
     width: 1920px;
     height: 80px;
+    
 }
 .header_logo{
     display: flex;
@@ -63,8 +64,8 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:26px;
-    margin-left: 550px;
+    gap:30px;
+    margin-left: 535px;
 }
 .nav__item{
     color: white;
@@ -88,57 +89,65 @@ a{
     height: 50px;
 }
 .img2{
-    opacity: 60%;
+    opacity: 80%;
     z-index: 0;
     position: relative;
+    margin-left: 20px;
+    top: -8px;
 }
 .first-screen{
     border: 0px solid black;
     width: 1140px;
     height: 724px;
     margin:0 auto;
-    margin-top: -729px;
+    margin-top: -720px;
 }
 .title1{
     font-family:'Oswald', sans-serif;
     font-size: 48px;
     color: white;
     font-weight:normal;
+    
 }
 .info{
     border: 0px solid black;
     margin-top: -529px;
     z-index: 1;
     position: relative;
-    margin-left: 190px;
+    margin-left: 200px;
 }
 .block1{
     width: 1920px;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 800px;
     margin:0 auto;
-    margin-top: 740px;
+    margin-top: 890px;
 }
 .block2{
     width: 1920px;
-    border: 2px solid pink;
+    border: 0px solid pink;
     height: 800px;
     margin:0 auto;
-    margin-top: 20px;
 }
 .block3{
     width: 1920px;
-    border: 2px solid pink;
-    height: 800px;
+    border: 1px solid pink;
+    height: 700px;
     margin:0 auto;
     margin-top: 20px;
 }
+.block4{
+    width: 1920px;
+    border: 1px solid pink;
+    height: 800px;
+    margin:0 auto;
+}
 .content-block{
     width: 1100px;
-    border: 1px solid olive;
+    border: 0px solid olive;
     height: 530px;
     margin:0 auto;
-    margin-top: 139px;
+    
 }
 .img3{
     width: 540px;
@@ -196,7 +205,7 @@ input[name="knop"]{
     flex-direction: row;
     align-items: center;
     gap:40px;
-    border: 1px solid yellow;
+    border: 0px solid yellow;
 }
 .sr-content2{
     margin-top: 43px;
@@ -238,7 +247,7 @@ input[name="knop"]{
     font-family:'Oswald', sans-serif;
     font-size: 24px;
     font-weight:normal;
-    border: 1px solid black;
+    border: 0px solid black;
     display: flex;
     flex-direction: row;
     gap: 47px;
@@ -258,7 +267,7 @@ input[name="knop"]{
     color: #005BC1;
 }
 .content{
-    border: 1px solid khaki;
+    border: 0px solid khaki;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -300,7 +309,8 @@ input[name="knop"]{
     font-weight:normal;
     font-size: 18px;
     margin-left: 15px;
-    margin-top: 150px;
+    margin-top: 100px;
+    line-height: 30px;
 }
 .info3{
     width: 665px;
@@ -311,7 +321,7 @@ input[name="knop"]{
 .content2{
     width: 615px;
     height: 250px;
-    border: 1px solid purple;
+    border: 0px solid purple;
     margin-top: -50px;
     margin-left: 30px;
    
@@ -337,7 +347,7 @@ input[name="knop"]{
 }
 
 .ul-and-title{
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     flex-direction: column;
     gap: 30px;
